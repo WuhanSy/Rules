@@ -1,7 +1,7 @@
 name: Generate MosDNS Rules
 on:
   schedule:
-    - cron: '0 17 * * *'
+    - cron: '0 17 * * 0'
   workflow_dispatch:
 
 jobs:
@@ -26,7 +26,7 @@ jobs:
           ./v2dat unpack geosite -o rules/ -f apple -f cn -f 'geolocation-!cn' geosite.dat
           
           # 下载额外的 local-ptr
-          curl -L -o rules/local-ptr.txt "raw.githubusercontent.com"
+          curl -L -o rules/local-ptr.txt "https://raw.githubusercontent.com/sbwml/luci-app-mosdns/v5/luci-app-mosdns/root/etc/mosdns/rule/local-ptr.txt"
 
       - name: Push to Branch
         uses: peaceiris/actions-gh-pages@v4
