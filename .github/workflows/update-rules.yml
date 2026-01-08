@@ -1,0 +1,36 @@
+name: Generate MosDNS Rules
+on:
+  schedule:
+    - cron: '0 17 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download Databases and v2dat
+        run: |
+          # 1. 下载原始二进制数据库 (2026年最新地址)
+          curl -L -o geoip.dat "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip-only-cn-private.dat"
+          curl -L -o geosite.dat "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat"
+          
+          # 2. 直接下载单一二进制 v2dat 工具 (与你原脚本一致)
+          curl -fSL -o v2dat "https://raw.githubusercontent.com/xukecheng/scripts/main/v2dat"
+          chmod +x v2dat
+
+      - name: Unpack and Process Rules
+        run: |
+          mkdir -p rules
+          # 使用下载的 v2dat 拆解数据
+          ./v2dat unpack geoip -o rules/ -f cn geoip.dat
+          ./v2dat unpack geosite -o rules/ -f apple -f cn -f 'geolocation-!cn' geosite.dat
+          
+          # 下载额外的 local-ptr
+          curl -L -o rules/local-ptr.txt "raw.githubusercontent.com"
+
+      - name: Push to Branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./rules
+          publish_branch: rules-data
