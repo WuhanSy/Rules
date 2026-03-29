@@ -118,6 +118,7 @@ full:crls.pki.goog
 full:csi.gstatic.com
 full:cstat.apple.com
 full:cstat.cdn-apple.com
+full:ctdsb.clouddiffuse.xyz
 full:ctldl.windowsupdate.com
 full:cueme-api.quark.cn
 full:customization-cdn.dell.com
@@ -291,6 +292,7 @@ full:is5.mzstatic.com
 full:itunes-apple.com.akadns.net
 full:itunes.apple.com
 full:itunesconnect.apple.com
+full:izattime.qcomgeo2.com
 full:js-cdn.music.apple.com
 full:km.support.apple.com
 full:ksn-cinfo-geo.kaspersky-labs.com
@@ -586,6 +588,7 @@ full:www.support.apple.com
 full:www4-static.gog-statics.com
 full:xn--flw351e.com
 full:xp.apple.com
+full:xtratime.qcomgeo2.com
 full:xz.pphimalayanrt.com
 alibaba
 xn--zfr164b
@@ -630,8 +633,8 @@ cn
 citic
 baidu
 alipay
-jsxcra.com
-chehang168.com
+jsxbxcl.com
+cgiia.com
 000868adh1.shop
 000868agl1.shop
 000868atz2.shop
@@ -13421,6 +13424,7 @@ anhuiry.com
 anhuisjx.com
 anhuisuya.com
 anhuiwine.com
+anhuiyun.com
 anhuizk.com
 ani-sh.com
 aniccw.net
@@ -18528,7 +18532,7 @@ bltzw.com
 blue-city.com
 blue-skylandscape.com
 blue-zero.com
-blue0123.com
+jsxlhb.com
 blueaggrestore.com
 bluearchive-cn.com
 bluebeebox.com
@@ -21965,7 +21969,7 @@ cggygs.com
 cghhospital.org
 cghospital.com
 cgicop.com
-cgiia.com
+jsxmw.com
 cgiumuo.xyz
 cgjoy.com
 cgjoy.net
@@ -22477,7 +22481,7 @@ chefafa.com
 chefugao.com
 cheguo.com
 chegva.com
-jsxpbc.com
+chehang168.com
 chehejia.com
 chehui.com
 cheil.site
@@ -26690,7 +26694,7 @@ come-bio.com
 comebond.com
 comebt.com
 comefilm.com
-jsxmw.com
+comeken.com
 comeorg.com
 comestuff.com
 comet.cc
@@ -59542,8 +59546,8 @@ jswyglw.com
 jswyjt.com
 jswyw.com
 jswzjt.com
-jsxbxcl.com
 0.zone
+jsxcra.com
 jsxcx.com
 jsxdf.com
 jsxdyh.com
@@ -59563,10 +59567,10 @@ jsxihu.com
 jsxinfeng.com
 jsxinfly.com
 jsxionghuojxzz.com
-jsxlhb.com
-comeken.com
+blue0123.com
 00086.net
-zgfllt.com
+xdnice.com
+jsxq.com
 jsxtsw.com
 jsxxzh.com
 jsxy.biz
@@ -66404,7 +66408,6 @@ loushi.com
 lousj.com
 lousw.com
 louyue.com
-lovart.ai
 lovcuty.com
 love-freedom.com
 love-math-edu.com
@@ -104039,7 +104042,7 @@ xdmssp.com
 xdn001.com
 xdn10000.com
 xdn2.com
-xdnice.com
+jsxpbc.com
 xdnote.com
 xdnphb.com
 xdnsvip.com
@@ -104879,7 +104882,6 @@ xiaomicp.com
 xiaomidns.com
 xiaomidns.net
 xiaomiev.com
-xiaomiflash.com
 xiaomiinc.net
 xiaomimimo.com
 xiaomimobile.com
@@ -114092,7 +114094,7 @@ zgdydyxh.com
 zgdygf.com
 zgdztk.com
 zgeyanwo.com
-jsxq.com
+zgfllt.com
 zgfp.com
 zgfwgj.com
 zgfxnews.com
