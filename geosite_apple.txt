@@ -1577,6 +1577,7 @@ full:streamingaudio.itunes.apple.com
 full:su.itunes.apple.com
 full:sync.itunes.apple.com
 full:tf-feedback.itunes.apple.com
+full:universal-activity-service.itunes.apple.com
 full:upp.itunes.apple.com
 full:www.support.apple.com
 full:a1.mzstatic.com
