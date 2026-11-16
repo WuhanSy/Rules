@@ -4,7 +4,7 @@
  * 用途：判断「当前不在家」且「本次请求的目标是家里网段」，
  *       命中后由规则行指定的策略处理（现在指向 🏠 家庭 → WireGuard）。
  *
- * 规则行写法（第三个字段是策略，requires-resolve 才会填充 dnsResult）：
+ * 规则行写法（注意第三个字段是策略，requires-resolve 才会填充 dnsResult）：
  *   SCRIPT,home-network,🏠 家庭,requires-resolve
  *
  * 相比旧版的改进：
